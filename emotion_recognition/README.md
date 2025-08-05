@@ -1,14 +1,16 @@
-# Project1: Real-Time Face Detection with OpenCV
+# Project 2: Facial Emotion Recognition System
 
-This project demonstrates real-time face detection using Python and OpenCV from your webcam.
+A real-time facial emotion recognition system using OpenCV and deep learning. Detects 7 basic emotions from webcam feed with visualization of prediction confidence.
 
 ## Features
-- Reads live video feed from webcam
-- Detects faces using Haar Cascade classifier
-- Draws bounding boxes around faces and displays face count
-- Gracefully handles empty frames or hardware errors
 
-## Setup & Run
-```bash
-pip install opencv-python
-python face_detection.py
+- Real-time face detection using Haar Cascades
+- Emotion classification (Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise)
+- Confidence score visualization
+- Fallback mechanism when model fails to load
+- Optimized for performance (processes every 3rd frame)
+
+## Prerequisites
+
+- Python 3.8-3.11 (recommended)
+- pip package manager
